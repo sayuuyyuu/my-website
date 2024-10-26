@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Anywaysss random lang hahahahahshss I wanna ask u some things to get to know u. Hope that's ok hahaha</h1>
+    
+    <button onclick="goToGoogleForm()">Questions:)</button>
+
+    <script>
+        function goToGoogleForm() {
+            window.location.href = 'https://forms.gle/wZCYbMHyqi5PJqhv9';  // Replace with the actual Google Classroom link if needed
+        }
+    </script>
+
+</body>
+</html>
